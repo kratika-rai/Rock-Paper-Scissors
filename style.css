@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* h1{
+    background-color: #26355D;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+} */
+
+h1 {
+    background-color: #1C325B; /* Darker blue for a richer look */
+    color: #fff; /* White text */
+    height: 6rem; /* Increased height for a bolder presence */
+    line-height: 6rem; /* Centers text vertically */
+    text-align: center; /* Centers text */
+    font-size: 3rem; /* Bigger text size */
+    font-weight: bold; /* Makes text more prominent */
+    text-transform: uppercase; /* Makes text all caps for emphasis */
+    letter-spacing: 3px; /* Adds spacing for better readability */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Adds a soft shadow below */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect on text */
+    
+}
+
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 8rem;
+    
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 7rem;
+    gap: 7rem;
+
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+    text-align: center;
+    
+
+}
+
+/* .msg-cont{
+    justify-content: center;
+    margin-top: 4rem;
+    /* margin-left: 45rem; 
+    margin-left: 44%;
+    
+*/
+
+.msg-cont {
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically (if needed) */
+    margin-top: 4rem;         /* Keeps the original spacing from the top */
+    text-align: center;       /* Ensures text inside is centered */
+    width: 100%;              /* Ensures it takes full width for centering */
+}
+
+
+#msg{
+    background-color: #1C325B;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    display: inline;
+
+}
